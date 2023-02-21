@@ -4,7 +4,7 @@ const path = require('path')
 const indexRouter = require('./routes/index');
 
 app.use(express.static(path.join(__dirname, 'public')))
-
+app.use(express.json())
 
 
 
